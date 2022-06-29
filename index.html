@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <section class="movie">
+        <div class="box-title">
+            <h1 class="title font-5">MOVIES INFO</h1>
+        </div>
+        
+        <article>
+            
+            <form class="movie-form">
+                <!-- <h2 class="movie-tittle">Buscá tu peli:</h2> -->
+                <div class="input-name-btn">
+                    <input class="name" type="text" name="nombre" placeholder="Buscá tu peli acá..." required>
+                    <br>
+                    <!-- <input hidden type="text" name="anio" placeholder="año (opcional)"> -->
+                    <br>
+                    <input class="search-submit" type="submit" name="title" value="enviar">
+                </div>
+                <!-- <input type="hidden" name="id"> -->
+            </form>
+        </article>        
+
+        <article class="movies-find">
+            <!-- <h2>Resultados</h2> -->
+            <table class="movie-table">
+                <tbody></tbody>
+            </table>
+        </article>
+    </section>
+
+    <template id="movie-template">
+        <tr class="movie-frame">
+            <td class="movie-image-cont"><img src="" alt="" class="movie-image"></td>
+            <td class="movie-name"></td>
+            <td><input type="submit" class="movie-btn" value="+ info"></td>
+        </tr>        
+    </template>
+    <template id="movie-template-2">
+        <tr class="info-extra">
+            <td class="info-title"></td>
+            <td class="info-released"></td>
+            <td class="info-genre"></td>
+            <td class="info-director"></td>
+            <td class="info-actors"></td>
+            <td class="info-plot"></td>
+            <td class="info-rating"></td>
+            <td><input type="submit" class="close-info" value="close"></td>
+        </tr>
+    </template>
+
+    <div class="loader-container">
+        <div class="loader ide-info">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+            <div class="bar6"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="linea"></div>
+        <div class="derechos-menu">
+            <a href="https://www.instagram.com/marco.tortolani/" target="_blank" rel="">
+                <img src="/asets/tortoDev_v1.png" alt="LogoTortoDev">          
+            </a>
+            <h5>2022 - torto.dev</h5>
+            <h3>Marco Tortolani</h3>
+        </div>
+    </footer>
+    
+
+    <script src="/script.js"></script>
+</body>
+</html>
