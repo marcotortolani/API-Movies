@@ -6,7 +6,7 @@ const $title = document.querySelector(".title");
 const page = window.location.pathname;
 
 // Chequea que la página sea el inicio, sino no realiza nada
-if (page === "/index.html"){
+//if (page === "/index.html"){
     let tempBodyImg = setInterval(() => {
      
         if (i===7){
@@ -20,7 +20,7 @@ if (page === "/index.html"){
             i++;
         }
     }, 5000);
-}
+//}
 
 
 const d = document,
