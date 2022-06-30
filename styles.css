@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fascinate&display=swap");
 /*
 
   Con este reset vamos a resolver:
@@ -156,31 +155,31 @@ body {
 
 @font-face {
   font-family: "HomeMovie";
-  src: url("/asets/fonts/Home Movie Font Normal.otf");
+  src: url("/asets/fonts/home_movie.otf");
 }
 @font-face {
   font-family: "TheGoonies";
-  src: url("/asets/fonts/Goonies.ttf");
+  src: url("/asets/fonts/the_goonies.ttf");
 }
 @font-face {
   font-family: "HarryPotter";
-  src: url("/asets/fonts/HARRYP.TTF");
+  src: url("/asets/fonts/harry_potter.TTF");
 }
 @font-face {
   font-family: "JurassicPark";
-  src: url("/asets/fonts/Jurassic_Park.ttf");
+  src: url("/asets/fonts/jurassic_park.ttf");
 }
 @font-face {
   font-family: "MonstersInc";
-  src: url("/asets/fonts/Monster AG.ttf");
+  src: url("/asets/fonts/monsters_inc.ttf");
 }
 @font-face {
   font-family: "RubikMoon";
-  src: url("/asets/fonts/RubikMoonrocks-Regular.ttf");
+  src: url("/asets/fonts/rubik_moonrocks.ttf");
 }
 @font-face {
   font-family: "Transformers";
-  src: url("/asets/fonts/Transformers.ttf");
+  src: url("/asets/fonts/transformers.ttf");
 }
 body {
   background-color: linear-gradient(90deg, #9B27CC 0%, #6930D6 100%);
@@ -525,10 +524,6 @@ tbody {
   font-size: 1.2rem;
   color: rgb(189, 189, 189);
 }
-.footer .derechos-menu h5:hover, h3:hover {
-  color: rgb(36, 166, 218);
-  cursor: default;
-}
 
 .footer .derechos-menu a {
   margin: 1em;
@@ -539,7 +534,7 @@ tbody {
   min-width: 30px;
   height: auto;
   filter: grayscale(100%);
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.2s;
 }
 
 .footer .derechos-menu a img:hover {

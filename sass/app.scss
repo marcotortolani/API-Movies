@@ -1,7 +1,7 @@
 @use '_reset';
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 
 @import 'variables';
 @import 'fonts';
@@ -377,8 +377,6 @@ tbody{
 .footer {
     display: flex;
     flex-direction: column;
-    
-
     align-items: center;
     position: relative;
     bottom: 0;
@@ -405,11 +403,8 @@ tbody{
         min-width: 350px;
         height: 100%;
         //min-height: 220px;
-    
         //background-color: #09b7bf;
-        
     }
-
 }
 
 .footer .derechos-menu h5, h3 {
@@ -420,11 +415,6 @@ tbody{
     font-weight: medium;
     font-size: 1.2rem;
     color: $inputSearch;
-
-    &:hover{
-        color: $colorTitle;
-        cursor: default;
-    }
   }
   .footer .derechos-menu a {
     margin: 1em;
@@ -434,7 +424,7 @@ tbody{
     min-width: 30px;
     height: auto;
     filter: grayscale(100%);
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.2s;
   }
   .footer .derechos-menu a img:hover {
     transform: scale(1.3);
